@@ -9,7 +9,7 @@ interface FeaturesProps {
 }
 
 export const ProblemSolution: React.FC = () => (
-  <section className="py-20 bg-ivory">
+  <section className="py-20 bg-gray-50">
     <div className="container mx-auto px-6">
       <div className="flex flex-col lg:flex-row items-center gap-16">
         <div className="lg:w-1/2">
@@ -105,7 +105,7 @@ export const USP: React.FC = () => (
 );
 
 export const Testimonials: React.FC<FeaturesProps> = ({ onNavigate }) => (
-  <section className="py-20 bg-ivory">
+  <section className="py-20 bg-gray-50">
      <div className="container mx-auto px-6">
         <h2 className="text-4xl font-serif font-bold text-navy-900 text-center mb-16">Lời chứng thực</h2>
         <div className="flex overflow-x-auto pb-8 gap-6 snap-x">
